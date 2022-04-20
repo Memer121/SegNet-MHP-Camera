@@ -47,7 +47,7 @@ Now, scroll down until you find `FCN-Resnet18-MHP-(numbers)`. Select both `MHP-5
 
 7. When the download has finished, you should be able to type commands again. Now that you have downloaded Segnet and the MHP networks, run:
 ```
-$ segnet --network=fcn-resnet18-mhp-640x320 /dev/video0
+$ segnet --network=fcn-resnet18-mhp-640x360 /dev/video0
 ```
 `NOTE: You can change out the '640x360' for '512x320' if you want to. Also, make sure your webcam is connected for '/dev/video0' to work.`
 
