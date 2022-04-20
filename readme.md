@@ -1,4 +1,4 @@
-# Segnet MHP Security Camera
+# Segnet MHP Camera
 
  This is a camera that will run off of Segnet MHP Object Detection network. This can be used as a security camera and can highlight any individuals in frame.
 
