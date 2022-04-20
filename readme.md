@@ -1,6 +1,6 @@
-# Project Name
+# Segnet MHP Security Camera
 
- Add short description of project here > 
+ This is a camera that will run off of Segnet MHP Object Detection network. This can be used as a security camera and can highlight any individuals in frame.
 
 ![add image descrition here](direct image link here)
 
