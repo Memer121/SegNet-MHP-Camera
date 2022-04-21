@@ -1,6 +1,6 @@
-# Segnet MHP Camera
+# SegNet MHP Camera
 
- This is a camera that will run off of Segnet MHP Object Detection network. This can be used as a security camera and can highlight any individuals in frame.
+ This is a camera that will run off of the SegNet MHP Object Detection network. This can be used as a security camera and can highlight any individuals in frame.
 
 ![add image descrition here](direct image link here)
 
@@ -14,27 +14,27 @@ Add an explanation of the algorithm and how it works. Make sure to include detai
 
 1. Make sure git and cmake are installed. Run:
 ```
-$ sudo apt-get update
-$ sudo apt-get install git cmake
+sudo apt-get update
+sudo apt-get install git cmake
 ```
 2. Clone the `jetson-inference` project:
 ```
-$ git clone https://github.com/dusty-nv/jetson-inference
-$ cd jetson-inference
-$ git submodule update --init
+git clone https://github.com/dusty-nv/jetson-inference
+cd jetson-inference
+git submodule update --init
 ```
 3. Now install the python packages:
 ```
-$ sudo apt-get install libpython3-dev python3.numpy
+sudo apt-get install libpython3-dev python3.numpy
 ```
 4. Make a directory:
 ```
-$ mkdir build
+mkdir build
 ```
-5. Download Segnet using the downloader tool:
+5. Download SegNet using the downloader tool:
 ```
-$ cd build
-$ cmake ../
+cd build
+cmake ../
 ```
 [Imgur](https://imgur.com/E2KauvE)
 ![image](https://user-images.githubusercontent.com/101989644/164261058-21cb2317-40fb-46a4-946b-90bbefd3fc4e.png)
@@ -47,7 +47,7 @@ Now, scroll down until you find `FCN-Resnet18-MHP-(numbers)`. Select both `MHP-5
 
 7. When the download has finished, you should be able to type commands again. Now that you have downloaded Segnet and the MHP networks, run:
 ```
-$ segnet --network=fcn-resnet18-mhp-640x360 /dev/video0
+segnet --network=fcn-resnet18-mhp-640x360 /dev/video0
 ```
 `NOTE: You can change out the '640x360' for '512x320' if you want to. Also, make sure your webcam is connected for '/dev/video0' to work.`
 
