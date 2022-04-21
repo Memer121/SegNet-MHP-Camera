@@ -1,12 +1,12 @@
 # SegNet MHP Camera
 
- This is a camera that will run off of the SegNet MHP Object Detection network. This can be used as a security camera and can highlight any individuals in frame.
+ This is a camera that will run off of the SegNet Semantic Segmentation model. This can be used as a security camera and can highlight any individuals in frame.
 
 ![add image descrition here](direct image link here)
 
 ## The Algorithm
 
-Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
+SegNet is a semantic segmentation model. It consists of an encoder network and a decoder network, followed by a, one pixel at a time, classification layer. The enconder is usually a pre-trained network, such as ResNet. The task of the decoder network is to semantically project the features learnt by the encoder onto a pixel space to get a dense classification.
 
 ## Running this project
 
