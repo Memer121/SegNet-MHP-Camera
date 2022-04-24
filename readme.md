@@ -55,7 +55,7 @@ segnet --network=fcn-resnet18-mhp-640x360 --output-codec=h264 /dev/video* rtp://
 9. Now right-click the SDP file and select `Open with VCL Player`
 
 10. If everything works, you should get a live video on your screen, showing everything normally and should only highlight humans in the frame.
-`NOTE: For the first time, it may take a few minutes to load`
+`NOTE: It may take a few minutes to load and they might be some lag`
 
 
 
