@@ -1,6 +1,6 @@
 # SegNet MHP Camera
 
- This is a camera that will run off of the SegNet Semantic Segmentation model. This can be used as a security camera and can highlight any individuals using Multi-Human Parsing (MHP) in frame.
+ This is a camera that will run off of the SegNet Semantic Segmentation model. This can be used as a security camera and can highlight any individuals in frame using Multi-Human Parsing (MHP).
 
 ![add image descrition here](direct image link here)
 
