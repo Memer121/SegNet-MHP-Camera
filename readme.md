@@ -45,6 +45,11 @@ Now, scroll down until you find `FCN-Resnet18-MHP-(numbers)`. Select both `MHP-5
 
 7. When the download has finished, you should be able to type commands again. Now download VLC Media Player: https://www.videolan.org/ and this SDP file: https://drive.google.com/file/d/1EpYkg0_KYitMhMwYFK-zl81ucJX75GLL/view
 
+8. Now run SegNet on a live video:
+```
+segnet --network=fcn-resnet18-mhp-640x360 --output-codec=h264 /dev/video* rtp://192.168.55.100:1234
+```
+
 `NOTE: You can change out the '640x360' for '512x320' if you want to. Also, make sure your webcam is connected for '/dev/video0' to work.`
 
 8. If everything works, you should get a live video feed pop up on your jetson's screen, showing everything normally and should only highlight humans in the frame.
