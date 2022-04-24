@@ -10,8 +10,6 @@ SegNet is a semantic segmentation model. It consists of an encoder network and a
 
 ## Running this project
 
-`NOTE: This should be completed directly onto your jetson nano. (Simply connect a HDMI cord to a monitor and plug a mouse and keyboard into the jetson. You will also need a usb camera, I used a logitec webcam.`
-
 1. Make sure git and cmake are installed. Run:
 ```
 sudo apt-get update
