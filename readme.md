@@ -52,7 +52,9 @@ segnet --network=fcn-resnet18-mhp-640x360 --output-codec=h264 /dev/video* rtp://
 
 `NOTE: You can change out the '640x360' for '512x320' if you want to. Also, make sure your webcam is connected for '/dev/video0' to work.`
 
-8. If everything works, you should get a live video feed pop up on your jetson's screen, showing everything normally and should only highlight humans in the frame.
+9. Now right-click the SDP file and select `Open with VCL Player`
+
+10. If everything works, you should get a live video feed pop up on your jetson's screen, showing everything normally and should only highlight humans in the frame.
 
 
 
