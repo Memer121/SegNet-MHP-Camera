@@ -6,7 +6,7 @@
 
 ## The Algorithm
 
-SegNet is a semantic segmentation model. It consists of an encoder network and a decoder network, followed by a, one pixel at a time, classification layer. The enconder is usually a pre-trained network, such as ResNet. What the decoder network does is, semantically projects the features learnt by the encoder onto a pixel space to get a dense classification.
+SegNet is a semantic segmentation model. It consists of an encoder network and a decoder network, followed by a, one pixel at a time, classification layer. The enconder is usually a pre-trained network, such as ResNet. What the decoder network does is semantically projects the features learnt by the encoder onto a pixel space to get a dense classification.
 
 ## Running this project
 
