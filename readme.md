@@ -26,8 +26,9 @@ git submodule update --init
 ```
 sudo apt-get install libpython3-dev python3.numpy
 ```
-4. Make a directory:
+4. Go into 'jetson-inference' and create a directory to store SegNet.
 ```
+cd jetson-inference
 mkdir build
 ```
 5. Download SegNet using the downloader tool:
