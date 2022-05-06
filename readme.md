@@ -2,7 +2,8 @@
 
  This is a camera that will run off of the SegNet Semantic Segmentation model. This can be used as a security camera and can highlight any individuals in frame using Multi-Human Parsing (MHP).
 
-![add image descrition here](direct image link here)
+![image](https://user-images.githubusercontent.com/101989644/167172849-9670be5e-a216-49aa-ac01-015b4c4e1c91.png)
+[Imgur](https://imgur.com/Bm857Cj)
 
 ## The Algorithm
 
