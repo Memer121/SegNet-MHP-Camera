@@ -26,9 +26,8 @@ git submodule update --init
 ```
 sudo apt-get install libpython3-dev python3.numpy
 ```
-4. Go into 'jetson-inference' and create a directory to store SegNet.
+4. Now create a directory to store SegNet.
 ```
-cd jetson-inference
 mkdir build
 ```
 5. Download SegNet using the downloader tool:
@@ -39,7 +38,7 @@ cmake ../
 [Imgur](https://imgur.com/E2KauvE)
 ![image](https://user-images.githubusercontent.com/101989644/164261058-21cb2317-40fb-46a4-946b-90bbefd3fc4e.png)
 
-6. You will see the downloader tool (pictured above). Anything with a star, move to it using the arrow keys and unselect it by pressing the spacebar.
+6. You will see the downloader tool (pictured above). Anything with a star, move to it using the arrow keys and unselect it by pressing the spacebar. 'LEAVE RESSNET18 AND PASCAL VOC SELECTED'
 Now, scroll down until you find `FCN-Resnet18-MHP-(numbers)`. Select both `MHP-512x320` and `MHP-640x360`. Now, with both selected, press the Enter key.
 
 [Imgur](https://imgur.com/aRJ5aG8)
@@ -57,7 +56,7 @@ segnet --network=fcn-resnet18-mhp-640x360 --output-codec=h264 /dev/video* rtp://
 9. Now right-click the SDP file and select `Open with VCL Player`
 
 10. If everything works, you should get a live video on your screen, showing everything normally and should only highlight humans in the frame.
-`NOTE: It may take a few minutes to load and they might be some lag`
+`NOTE: It may take a few minutes to load and they might be some lag. Also, if you are a windows user, see the video linked as to how to run SegNet on live video.'
 
 
 
