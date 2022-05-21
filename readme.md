@@ -38,7 +38,7 @@ cmake ../
 [Imgur](https://imgur.com/E2KauvE)
 ![image](https://user-images.githubusercontent.com/101989644/164261058-21cb2317-40fb-46a4-946b-90bbefd3fc4e.png)
 
-6. You will see the downloader tool (pictured above). Anything with a star, move to it using the arrow keys and unselect it by pressing the spacebar. 'LEAVE RESSNET18 AND PASCAL VOC SELECTED'
+6. You will see the downloader tool (pictured above). Anything with a star, move to it using the arrow keys and unselect it by pressing the spacebar. `LEAVE RESSNET18 AND PASCAL VOC SELECTED`
 Now, scroll down until you find `FCN-Resnet18-MHP-(numbers)`. Select both `MHP-512x320` and `MHP-640x360`. Now, with both selected, press the Enter key.
 
 [Imgur](https://imgur.com/aRJ5aG8)
