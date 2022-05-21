@@ -72,4 +72,4 @@ segnet --network=fcn-resnet18-mhp-640x360 --output-codec=h264 /dev/video* rtp://
 
 
 
-[Will add a video explanation soon]
+[Video explanation: https://youtu.be/xaVNqb0FrWU]
